@@ -1,0 +1,6 @@
+Exercise 1: Calculate the Area of a Rectangle
+Objective: Modify the server to calculate the area of a rectangle.
+
+1) Create two variables, width and height, and assign values to them.
+2) Calculate the area of the rectangle using width * height.
+3) Display the result in the response along with a welcome message and a goodbye message.
