@@ -4,3 +4,14 @@ Objective: Modify the server to calculate the area of a rectangle.
 1) Create two variables, width and height, and assign values to them.
 2) Calculate the area of the rectangle using width * height.
 3) Display the result in the response along with a welcome message and a goodbye message.
+
+
+Exercise 2: Calculate the Area of a Circle
+Objective: Calculate the area of a circle given a radius.
+
+Create a variable radius with a numeric value.
+Use the formula 
+area = 𝜋 * (radius*radius)
+to calculate the area.
+
+Display the radius and area in the response.
