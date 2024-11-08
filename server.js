@@ -1,5 +1,4 @@
 var http = require('http')
-var car = require('./car.js')
 var url = require('url')
 var uc = require('upper-case')
 
@@ -9,7 +8,6 @@ function serverPurpose(req, res){
     
     // Create a Project with 2 routes 
     // perimeter: perform the operation of calculating the perimeter of an square 
-
     // add: perform the operation of calculation the addtion of 2 numbers
 
     let urlObject =  url.parse(req.url, true)
