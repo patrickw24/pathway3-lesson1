@@ -12,3 +12,19 @@ Objective: Calculate the area of a circle given a radius.
 1) Create a variable radius with a numeric value.
 2) Use the formula area = 𝜋 * (radius*radius) to calculate the area.
 3) Display the radius and area in the response.
+
+Exercise 3 : Multiplication Calculator
+Objective: Create a Route that multiplies two numbers.
+Route: /multiply?a=10&b=10
+Expected Output: The product of 10 and 10 is 100.
+
+Exercise 4 : Division Calculator
+Objective: Create a Route that divide two numbers.
+Route: /divide?a=10&b=10
+Expected Output: The division of 10 and 10 is 1.
+
+
+Exercise 5 : Substraction Calculator
+Objective: Create a Route that substract two numbers.
+Route: /subs?a=10&b=10
+Expected Output: The substracion of 10 and 10 is 0.
