@@ -1,14 +1,7 @@
 var http = require('http')
 var car = require('./car.js')
 var url = require('url')
-var uc = require('upper-case');
-// http =  Hyper Text Transfer Protocol 
-// HTML  = Hyper Text Markup Language
-// <a> <h1> <p>
-
-// ftp = file transfer protocol (dropbox, google drive)
-
-// smtp = email (gmail, outlook, yahoo)
+var uc = require('upper-case')
 
 http.createServer( serverPurpose ).listen(3000)
 
@@ -27,13 +20,15 @@ function serverPurpose(req, res){
         let sidea = parseInt(parameters.sidea) 
         let sideb = parseInt(parameters.sideb) 
         let perimeter =(sidea*2) + (sideb*2)
-        res.write(`The perimeter is ${perimeter}`)
+        let response = uc.upperCase(`The perimeter is ${perimeter}`)
+        res.write(response)
     }else if (urlObject.pathname === '/add'){
         res.writeHead(200, {'Content-Type': 'text/html'})
         let num1 = parseInt(parameters.num1) 
         let num2 = parseInt(parameters.num2)
         let addition = num1 + num2
-        res.write(`The addition is ${addition}`)
+        let response = uc.upperCase(`The addition is ${addition}`)
+        res.write(response)
     }else {
         res.writeHead(400, {'Content-Type': 'text/html'})
         res.write(`<h1>Error, this site does not exists </h1>`)
